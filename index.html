@@ -1,286 +1,365 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <title>Comverse</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
-  <section>
-    <header>
-      <nav>
-        <select id="language" name="userlanguage">
-          <option value="english">EN</option>
-          <option value="hebrew">HE</option>
-        </select>
+  <!-- ********************************* Top menu section ******************************** -->
+    <div class="top-menu-background">
+		<section class="display-position">
+			<div class="customer-login">
+				<select class="language">
+				  <option value="English"><a href="#">En</a></option>
+				  <option value="Hebrew"><a href="#">He</a></option>
+				</select>
+				<span> | </span>
+				<a href="#">Customer login</a>
+			</div>
+			<div>
+				<a href="#" class="logo">
+					<img src="img/comverse-logo.png" alt="comverse logo" width="185px" height="62px">
+				</a>
+				<nav class="top-menu">
+					<ul>
+						<li><a href="">YOUR NEEDS</a></li>
+						<li><a href="">OUR PORTFOLIO</a></li>
+						<li><a href="">NEWS&MEDIA</a></li>
+						<li><a href="">ABOUT COMVERSE</a></li>
+					</ul>
+				</nav>
+				<form action="" method="GET">
+					<div class="search-wrapper">
+						<input type="text" name="search" class="text-field">
+						<button type="submit" class="submit">| 
+							<img src="img/searchIcon.png" alt="" width="12px" height="11px">
+						</button>
+					</div>
+				</form>
+			</div>
+		</section>
+	</div>
+	<!-- **************************** "Free your Markets" section *************************** -->
+	<main>
+		<div class="slideshow-background">
+			<section class="slideshow">
+				<h1><b>Free</b> Your Markets From<br>IT <b>Complexity</b></h1>
+				<p>Comverse Policy Studio <br><span class="first-bold">1st</span> Ever Marketing-Oriented Policy Tool</p>
+				<a class="learn-more-button" href="#">LEARN MORE</a>
+				<nav>
+					<ul>
+						<li class="slideshow-buttons"><a href="#"></a></li>
+						<li class="slideshow-buttons"><a href="#"></a></li>
+						<li class="slideshow-buttons"><a href="#"></a></li>
+						<li class="slideshow-buttons"><a href="#"></a></li>
+					</ul>
+				</nav>	
+				<div class="slidebox slidebox-pink">
+					<p class="">Comvers Is Value-Added Service Global Market Leader</p>
+					<img src="img/link.png" alt="" width="29px" height="26px">
+					<a href="">Read more</a>
+				</div>
+				<div class="slidebox slidebox-green">
+					<p>Managed Services World Congress September<br> 18-19 Berlin, Germany</p>
+					<img src="img/doc.png" alt="" width="23px" height="29px">
+					<a href="">Read more</a>
+				</div>
+				<div class="slidebox slidebox-orange">
+					<p>Comverse: Enabling a world of Conected Possibilities</p>
+					<img src="img/play.png" alt="" width="28px" height="28px">
+					<a href="">Watch Now</a>
+				</div>
+			</section>
+		</div>
+		<!-- ***************************** "What can we do" section ***************************** -->
+		<div class="what-can-background">
+			<section class="what-can-section">
+				<h1>WHAT CAN WE DO FOR YOU?</h1>
+				<ul>
+					<li class="what-can-titles">
+						<a href="">
+							<img src="img/data_monetization.png" alt="Data icon" width="120" height="87">
+							<p>Data monetization</p>
+						</a>
+					</li>
+					<li class="what-can-titles">
+						<a href="">
+							<img src="img/m2m.png" alt="Machine to machine icon" width="86" height="87">
+							<p>Machine to machine <br> (M2M)</p>
+						</a>
+					</li>
+					<li class="what-can-titles">
+						<a href="">
+							<img src="img/ott.png" alt="Over-the-top icon" width="78" height="87">
+							<p>Over-the-top <br> (OTT)</p>
+						</a>
+					</li>
+					<li class="what-can-titles">
+						<a href="">
+							<img src="img/cloud_computing.png" alt="Cloud computing icon" width="128" height="87">
+							<p>Cloud computing</p>
+						</a>
+					</li>
+					<li class="what-can-titles">
+						<a href="">
+							<img src="img/managed_services.png" alt="Managed services icon" width="96" height="87">
+							<p>Managed services</p>
+						</a>
+					</li>
+					<li class="what-can-titles">
+						<a href="">
+							<img src="img/social_media.png" alt="Social media icon" width="98" height="87">
+							<p>Social Media</p>
+						</a>
+					</li>	
+				</ul>
+				<div>
+					<a class="see-all-button" href="#">See all of our solutions</a>
+				</div>
+			</section>
+		</div>
+		<!-- **************************** "What's happening" section **************************** -->
+		<div class="whats-happen-background">
+			<section class="whats-happen-section">
+				<h1>WHAT'S HAPPENING AT COMVERSE</h1>
+				<div class="events-box">
+					<h2>NEWS</h2>
+					<div class="grey-box">
+						<time datetime="09-04">
+							<div class="dots-line">04</div>
+							<span class="date-font">SEP</span>
+						</time>
+						<p class="news-txt">Comverse Regains Lead in Convergent Charing Market</p>
+					</div>
+					<div class="all-news-link">
+						<img src="img/news.png" alt="">
+						<a href="" class="all-news-txt">All News</a>
+					</div>
+				</div>
 
-        <a href="">Customer login</a>
-      </nav>
-
-      <img src="img/comverseLogo.gif" alt="Comverse logo image" width="150" height="50">
-
-      <nav>
-        <a href="">YOUR NEEDS</a> 
-        <a href="">OUR PORTFOLIO</a>
-        <a href="">NEWS & MEDIA</a>
-        <a href="">ABOUT COMVERSE</a>
-
-        <form method="get">
-          <input type="text" name="search" id="search">
-          <img src="img/searchButton.gif" alt="search button image" width="20" height="20">
-        </form>
-      </nav>
-    </header>
-  </section>
-
-  <section>
-    <header>
-      <img src="img/caroucelle.gif" alt="caroucelle background image" width="800" height="250">
-      <h1>Free Your Markets From IT Complexity</h1>
-      <h2>Comverse Policy Studio 1st Ever Marketign-Oriented Policy Tool</h2>
-    </header>
-    <div><a href="">LEARN MORE</a></div>
-
-    <nav>
-      <div>
-        <a href=""><img src="img/pStudioLink1.gif" alt="little square image" width="10" height="10"></a>
-        <a href=""><img src="img/pStudioLink1.gif" alt="little square image" width="10" height="10"></a>
-        <a href=""><img src="img/pStudioLink1.gif" alt="little square image" width="10" height="10"></a>
-        <a href=""><img src="img/pStudioLink1.gif" alt="little square image" width="10" height="10"></a>
-      </div>
-    </nav>
-
-    <header>
-      <nav>
-        <div>
-          <h3>Comverse Is Value-Added Service Global Market Leader.</h3>
-          <a href=""><img src="img/20x20.gif" alt="Two rings image" width="20" height="20"> Read more</a>
-        </div>
-     
-        <div>
-          <h3>Managed Services World Congress September 18 - 19 Berlin, Germany</h3>
-          <a href=""><img src="img/20x20.gif" alt="Two rings image" width="20" height="20"> Read more</a>
-        </div>
-
-        <div> 
-          <h3>Comverse: Enabling a world of Connected Possibilities</h3>
-          <a href=""><img src="img/20x20.gif" alt="Two rings image" width="20" height="20"> Watch now</a>
-        </div>
-      </nav>
-    </header>
-  </section>
-
-  <main>
-    <section>
-      <header>
-        <h1>WHAT CAN WE DO FOR YOU?</h1>
-
-        <nav>
-          <div>
-            <a href="">
-            <img src="img/70x50.gif" alt="Data monetization icon" width="70" height="50">
-            <div>Data monetization</div></a>
-          </div>
-
-          <div>
-            <a href="">
-            <img src="img/70x50.gif" alt="Machine to machine icon" width="70" height="50">
-            <div>Machine to machine (M2M)</div></a>
-          </div>
-
-          <div>
-            <a href="">
-            <img src="img/70x50.gif" alt="Over the top icon" width="70" height="50">
-            <div>Over the top (OTT)</div></a>
-          </div>
-
-          <div>
-            <a href="">
-            <img src="img/70x50.gif" alt="Cloud computing icon" width="70" height="50">
-            <div>Cloud computing</div></a>
-          </div>
-
-          <div>
-            <a href="">
-            <img src="img/70x50.gif" alt="Managed services icon" width="70" height="50">
-            <div>Managed services</div></a>
-          </div>
-
-          <div>
-            <a href="">
-            <img src="img/70x50.gif" alt="Social media icon" width="70" height="50">
-            <div>Social media</div></a>
-          </div>
-
-          <div><a href="">See all our solutions
-          <img src="img/20x20.gif" alt="Play icon" width="20" height="20"></a></div>
-        </nav>
-      </header>
-    </section>
-  </main>
-
-  <section>
-    <header>
-      <img src="img/800x220.gif" alt="traffic background image" width="800" height="220">
-      <h1>WHAT'S HAPPENING AT COMVERSE?</h1>
-
-      <nav>
-          <article>
-            <h2>NEWS</h2>
-            <h3>04 SEP</h3>
-            <p>Comverse Regainds Lead in Convergent Charging Market Regainds Lead in</p>
-          </article>
-          <div><a href=""><img src="img/20x20.gif" alt="News icon" width="20" height="20"> All News</a></div>
-
-          <article>
-            <h2>EVENTS</h2>
-            <h3>04 SEP</h3>
-            <p>Comverse Regainds Lead in Convergent Charging Market Regainds Lead in</p>
-          </article>
-          <div><a href=""><img src="img/20x20.gif" alt="Events icon" width="20" height="20"> All Events</a></div>
-
-          <article>
-            <h3>04 SEP</h3>
-            <p>Comverse Regainds Lead in Convergent Charging Market Regainds Lead in</p>
-          </article>
-          <div><a href=""><img src="img/20x20.gif" alt="Events icon" width="20" height="20"> All Events</a></div>
-      </nav>
-    </header>
-  </section>
-
-  <section>
-    <header>
-        <h1>SUCCESS STORIES</h1>
-      <div>
-        <figure>
-          <img src="img/70x80.gif" alt="Deputy CTO image" width="70" height="80">
-          <figcaption>
-            <img src="img/20x20.gif" alt="Quotation mark image" width="20" height="20">
-            We have very good and very warm relations with Comverse. We always achievet..."
-
-            <div>SERGEY KOROTYCH</div>
-            <div>Deputy CTO, 3 Mob Ukraine 
-            <img src="img/50x30.gif" alt="3 Mob logo" width="50" height="30"></div>
-          </figcaption>
-
-          <div>
-            <img src="img/70x80.gif" alt="Cycle 30 logo" width="70" height="80">
-            <img src="img/70x80.gif" alt="Bul logo" width="70" height="80">
-            <img src="img/70x80.gif" alt="GEMPLUS" width="70" height="80">
-          </div>
-        </figure>
-      </div>
-
-      <div>
-        <figure>
-          <img src="img/70x80.gif" alt="MTC logo" width="70" height="80">
-          <img src="img/70x80.gif" alt="Cable & Wireless logo" width="70" height="80">
-          <img src="img/70x80.gif" alt="Trilogy International Partners logo" width="70" height="80">
-          <div>
-            <img src="img/70x80.gif" alt="CIO of Multi Links image" width="70" height="80">
-            <figcaption>
-              Comverse has demonstrated that they are partners, not just suppliers, because they
-              understand our needs, our situations; together we are...
-
-              <div>ADALE KEHASSAN</div>
-              <div>CIO of Multi-links
-              <img src="img/100x30.gif" alt="Multi-links logo" width="100" height="30"></div>
-            </figcaption>
-          </div>
-        </figure>
-      </div>
-
-      <div>
-        <p>
-          <img src="img/20x20.gif" alt="Quotation mark image" width="20" height="20">
-          Comverse has been able to fully deliver what we want and we have peers...
-        </p>
-
-            <div>RAVISHANKER</div>
-            <div>Tata Sky CIO N.
-            <img src="img/50x30.gif" alt="Tata sky logo" width="50" height="30"></div>
-
-          <div>
-            <img src="img/70x80.gif" alt="HP logo" width="70" height="80">
-            <img src="img/70x80.gif" alt="Atos logo" width="70" height="80">
-          </div>
-      </div>
-
-      <div><a href="">All 256 Success Stories 
-      <img src="img/20x20.gif" alt="Play icon" width="20" height="20"></a></div>
-    </header>
-  </section>
-
-  <section>
-    <div>
-      <h1>KEY SOLUTIONS</h1>
-      <nav>
-        <ul>
-          <li>Monetizing  Data</li>
-          <li>Over the Top (OTT)</li>
-          <li>Machine to Machine (M2M)</li>
-          <li>Cloud Computing</li>
-          <li>Managed Services</li>
-          <li>Customer Experience Management</li>
-          <li>Rich Communication Suite (RCS)</li>
-          <li>Social Media</li>
-          <li>4G/LTE</li>
-        </ul>
-      </nav>
-    </div>
-
-    <div>
-      <h1>PRODUCTS & SERVICES</h1>
-      <nav>
-        <ul>
-          <li>Billing</li>
-          <li>VAS</li>
-          <li>Mobile Internet</li>
-          <li>Global Services</li>
-          <li>Training Services</li>
-        </ul>
-      </nav>
-    </div>
-
-    <div>
-      <h1>COMPANY</h1>
-      <nav>
-        <ul>
-          <li>Executive Profiles</li>
-          <li>Clients</li>
-          <li>Investors</li>
-          <li>Partners</li>
-          <li>Corporate Responsibility</li>
-          <li>Industry Involvement</li>
-          <li>Careers</li>
-        </ul>
-      </nav>
-    </div>
-
-    <aside>
-      <h1>LATEST BLOG POSTS</h1>
-      <article>
-        <h2>04 SEP</h2>
-        <p>Comverse Regainds Lead in Convergent Charging Market</p>
-      </article>
-      <form type="get">
-        <label for="subscribe">SUBSCRIBE TO COMVERSE</label>
-        <input type="text" name="email" id="email" placeholder="ronit.klein@gmail.com" value="">
-        <button>Sign Up</button>
-      </form>
-
-      <div>
-        <img src="img/20x20.gif" alt="Youtube logo" width="20" height="20">
-        <img src="img/20x20.gif" alt="Twitter logo" width="20" height="20">
-        <img src="img/20x20.gif" alt="IN logo" width="20" height="20">
-      </div>
-    </aside>
-
-    <footer>
-      <p>Copyright &copy; 2012 Comverse, Inc. | <a href="">
-      Privacy Policy</a></p>
-    </footer>
-  </section>
+				<div class="events-box">
+					<h2>EVENTS</h2>
+					<div class="grey-box">
+						<time datetime="09-04">
+							<div class="dots-line">04</div> 
+							<p class="date-font">SEP</p>
+						</time>
+						<p class="news-txt">Comverse Regains Lead in Convergent Charing Market</p>
+					</div>
+					<div class="all-news-link">
+						<img src="img/eventListIconEvents.png" alt="">
+						<a href="" class="all-news-txt">All Events</a>
+					</div>
+				</div>
+				<div class="events-box">
+					<div></div>
+					<div class="grey-box">
+						<time datetime="09-04">
+							<div class="dots-line">04</div> 
+							<p class="date-font">SEP</p>
+						</time>
+						<p class="news-txt">Comverse Regains Lead in Convergent Charing Market</p>
+					</div>
+					<div class="all-news-link">
+						<img src="img/eventListIconEvents.png" alt="">
+						<a href="" class="all-news-txt">All Events</a>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- **************************** "Success stories" section ***************************** -->
+		<div class="stories-background">
+			<section class="stories-section">
+				<h1>SUCCESS STORIES</h1>
+				<ul>
+					<li class="story-box-wrapper">
+						<ul>
+							<li>
+								<a href="" class="big-story-box">
+									<figure class="person-image">
+										<img src="img/sergey_korotych.jpg" alt="Image of Sergey Korotych" width="99px" height="111px">
+									</figure>
+									<blockquote class="blockquote-big-txt">
+										<img src="img/quote-grey.png" alt="Grey quote icon" width="27px" height="20px">
+										We have very good and very warm relations with Comverse. We always achievet..."
+										<div class="person-details">
+											<cite>
+												<span class="details-blue-txt">SERGEY KOROTYCH</span> 
+												<span class="details-gray-txt">Deputy CTO, 3 Mov Ukraine</span>
+											</cite>
+											<img src="img/mob_logo.jpg" alt="3MOB logo" width="61px" height="26px">
+										</div>
+									</blockquote>
+								</a>
+							</li>
+							<li class="story-logo-box">
+								<a href="">
+									<img src="img/cycle30_logo.jpg" alt="Cycle30 logo" width="110px" height="97px">
+								</a>
+							</li>
+							<li class="story-logo-box">
+								<a href="">
+									<img src="img/bull_logo.jpg" alt="Bull logo" width="110px" height="97px">
+								</a>
+							</li>
+							<li class="story-logo-box">
+								<a href="">
+									<img src="img/gemplus_logo.jpg" alt="Gemplus logo" width="110px" height="97px">
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="story-box-wrapper">
+						<ul>
+							<li class="story-logo-box">
+								<a href="">
+									<img src="img/mtc_logo.jpg" alt="MTC logo" width="110px" height="97px">
+								</a>
+							</li>
+							<li class="story-logo-box">
+								<a href="">
+									<img src="img/cable_and_wireless_logo.jpg" alt="Cable and Wireless logo" width="110px" height="97px">
+								</a>
+							</li>
+							<li class="story-logo-box">
+								<a href="">
+									<img src="img/trilogy_logo.jpg" alt="trilogy logo" width="110px" height="97px">
+								</a>
+							</li>
+							<li>
+								<a href="" class="big-story-box">
+									<figure class="person-image">
+										<img src="img/adale_kehassan.jpg" alt="Adale Kehassan image" width="99px"
+										 height="111px">
+									</figure>
+									<blockquote class="blockuote-small-txt">
+										Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs, our situation; together we are...
+										<div class="person-details">
+											<cite>
+												<span class="details-blue-txt">ADALE KEHASSAN</span>
+												<span class="details-grey-txt">CIO of Multi-links</span>
+											</cite>
+											<img src="img/multilinks_logo.jpg" alt="Multi links logo" width="94px"
+											 height="40px">
+										</div>
+									</blockquote>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="story-box-wrapper-smaller">
+						<ul>
+							<li>
+								<a href="" class="mid-story-box">
+									<blockquote class="blockuote-big-txt">
+										<img src="img/quote-grey.png" alt="3MOB logo">
+										Comverse has<br> been able to fully<br> deliver what we want and we have peers...
+										<div class="person-details-small">
+											<cite>
+												<span class="details-blue-txt">RAVISHANKER</span> 
+												<span class="details-gray-txt">Tata Sky CIO N.</span>
+											</cite>
+											<img src="img/tatasky_logo.jpg" alt="Tata sky logo" width="76px" 
+											 height="33px">
+										</div>
+									</blockquote>
+								</a>
+							</li>
+							<li class="story-logo-box">
+								<a href="">
+									<img src="img/hp_logo.jpg" alt="hp logo" width="110" height="97">
+								</a>
+							</li>
+							<li class="story-logo-box-last">
+								<a href="">
+									<img src="img/atos_logo.jpg" alt="Atos logo" width="110" height="97">
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<div>
+					<a class="all-256-button" href="#">All 256 Success Stories</a>
+				</div>
+			</section>
+		</div>
+	</main>
+	<!-- *************************************** Footer ***************************************** -->
+	<div class="footer-background">
+		<footer>
+			<div class="footer-links">
+				<h2>KEY SOLUTIONS</h2><br>
+				<nav>
+					<ul>
+						<li><a href="">Monetizing Data</a></li>
+						<li><a href="">Over the Top (OTT)</a></li>
+						<li><a href="">Machine to Machine (M2M)</a></li>
+						<li><a href="">Cloud computing</a></li>
+						<li><a href="">Managed Services</a></li>
+						<li><a href="">Costumer Experience Managment</a></li>
+						<li><a href="">Rich Communication Suite (RCS)</a></li>
+						<li><a href="">Social Media</a></li>
+						<li><a href="">4G/LTE</a></li>
+					</ul>	
+				</nav>
+				<small>
+					<p class="copyright">
+						Copyrigth@2012 Comverse,Inc | <a href="">Privecy Policy</a>
+					</p>
+				</small>
+			</div>
+			<div class="footer-links">
+				<h2>PRODUCTS & SERVICES</h2><br>
+				<nav>
+					<ul>
+						<li><a href="">Billing</a></li>
+						<li><a href="">VAS</a></li>
+						<li><a href="">Mobile Internet</a></li>
+						<li><a href="">Global Services</a></li>
+						<li><a href="">Training Services</a></li>
+					</ul>	
+				</nav>
+			</div>
+			<div class="footer-links-last">
+				<h2>COMPANY</h2><br>
+				<nav>
+					<ul>
+						<li><a href="">executive profiles</a></li>
+						<li><a href="">clients</a></li>
+						<li><a href="">investors</a></li>
+						<li><a href="">partners</a></li>
+						<li><a href="">corporate responsibillity</a></li>
+						<li><a href="">industry involvment</a></li>
+						<li><a href="">careers</a></li>
+					</ul>	
+				</nav>
+			</div>
+			<aside class="footer-aside">
+			<h2>LATEST BLOG POSTS</h2>
+			<div class="footer-date">
+				<time datetime="07-18"><p>18</p><p>July</p></time> 
+			</div>
+			<p class="blog-txt">Comverse Regains Lead in Convergent Charging Market</p>
+			<div class="blog-line"></div>
+			<h2>SUBSCRIBE TO COMVERSE</h2>
+			<form action="" method="GET">
+				<input type="text" name="email" placeholder="ronit.klein@gmail.com" class="blog-subscribe">
+				<button type="submit" class="sign-up-button">SIGN UP</button>
+			</form>
+			<div class="social-icons">
+				<a href="">
+					<img src="img/socialMenuIcon-youtube.png" alt="Youtube icon">
+				</a>
+				<a href="">
+					<img src="img/socialMenuIcon-twitter.png" alt="Twitter icon">
+				</a>
+				<a href="">
+					<img src="img/socialMenuIcon-linkdin.png" alt="Linkedin icon">
+				</a>
+			</div>
+			</aside>
+		</footer>
+	</div>
 </body>
-</html> 
+</html>
