@@ -206,16 +206,16 @@ footer {
 
 .slidebox > img {
 	vertical-align: top;
-	margin-top: 1.563em;
+	margin-top: 1.2em;
 }
 
 .slidebox > a {
 	color:  #ffffff;
-	font-size: 14px;
+	font-size: 0.65em;
 	font-weight: 700;
 	text-align: left;
 	display: inline-block;
-	margin-top: 25px;
+	margin-top: 1.8em;
 	text-decoration: none;
 }
 
