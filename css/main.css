@@ -134,7 +134,7 @@ footer {
 	color: #ffffff;
 	font-size: 1.125em;
 	font-weight: 350;
-	line-height: 26px;
+	line-height: 1.625em;
 	text-align: left;
 	margin: 0.625em 0;
 }
@@ -189,25 +189,24 @@ footer {
 }
 
 .slidebox {
-	border-radius: 6px;
-	box-shadow: 0px 1px 4px 0px #a2a2a2;
-	width: 290px;
-	height: 174px;
-	float: left;
-	display: inline;
-	margin-top: 80px;
+	border-radius: 0.375em;
+	box-shadow: 0 0.063em 0.250em 0 #a2a2a2;
+	width: 13em;
+	height: 8em;
+	display: inline-block;
+	margin-top: 4em;
 	color:  #ffffff;
-	font-size: 22px; 
+	font-size: 1.375em; 
 	font-weight: 300;	
-	line-height: 30px; 
+	line-height: 1.4em; 
 	text-align: left;
 	box-sizing: border-box;
-	padding: 15px;
+	padding: 0.938em;
 }
 
 .slidebox > img {
-	vertical-align: bottom;
-	margin-top: 35px;
+	vertical-align: top;
+	margin-top: 25px;
 }
 
 .slidebox > a {
@@ -215,6 +214,8 @@ footer {
 	font-size: 14px;
 	font-weight: 700;
 	text-align: left;
+	display: inline-block;
+	margin-top: 25px;
 	text-decoration: none;
 }
 
