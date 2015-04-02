@@ -139,6 +139,16 @@ footer {
 	margin: 0.625em 0;
 }
 
+.slideshow > h1 {
+	font-family: 'Open Sans';
+	padding-top: 0.7em;
+	line-height: 1em;
+}
+
+.slideshow > h1 > b:first-of-type {
+	font-weight: 700;
+}
+
 .first-bold {
 	font-weight: 700;
 }
