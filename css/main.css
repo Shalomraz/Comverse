@@ -47,9 +47,11 @@ footer {
 /***************************** Top menu section *****************************/
 
 .top-menu-background {
-  height: 5.625em;
+  height: 6em;
   box-shadow: 0 0.18em 0.18em lightgrey;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 .display-position {
