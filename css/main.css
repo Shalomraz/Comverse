@@ -76,6 +76,14 @@ footer {
   font-weight: normal;
 }
 
+.language + span {
+	background-color: grey;
+	display: inline-block;
+	width: 0.06em;
+	height: 0.8em;
+	margin: 0.12em 0.31em -0.06em 0.06em;
+}
+
 .logo {
   display: inline;
   float: left;
