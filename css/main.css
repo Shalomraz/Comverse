@@ -141,6 +141,10 @@ footer {
   cursor: pointer;
 }
 
+.submit {
+	color: lightgrey;
+}
+
 /************************* "Free your markets" section *************************/
 
 .slideshow-background{
