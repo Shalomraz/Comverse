@@ -149,10 +149,9 @@ footer {
 
 .slideshow-background{
 	background-image: url(../img/carousel.jpg);
-	width: 100%;
-	height: 34.313em;
-	box-sizing: border-box; 
-	background-position: center;
+	background-size: cover;
+	padding: 100px 0 20px;
+	background-position: -600px;
 }
 
 .slideshow > p {
