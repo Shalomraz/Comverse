@@ -20,6 +20,15 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table; 
+}
+
+.clearfix:after {
+    clear: both;
+}
 
 html {
   font-family: 'Open Sans', sans-serif;
@@ -39,6 +48,8 @@ footer {
 
 .top-menu-background {
   height: 5.625em;
+  box-shadow: 0 0.18em 0.18em lightgrey;
+  position: relative;
 }
 
 .display-position {
