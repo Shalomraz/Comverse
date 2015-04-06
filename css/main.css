@@ -52,6 +52,7 @@ footer {
   position: fixed;
   width: 100%;
   background-color: white;
+  z-index: 10;
 }
 
 .display-position {
@@ -132,17 +133,14 @@ footer {
 }
 
 .submit {
-  background-color:transparent;
+  background-color: transparent;
   border: 0;
   outline: 0;
   margin-left: 9em;
   margin-top: 0.125em;
   position: absolute;
   cursor: pointer;
-}
-
-.submit {
-	color: lightgrey;
+  color: lightgrey;
 }
 
 /************************* "Free your markets" section *************************/
@@ -150,8 +148,8 @@ footer {
 .slideshow-background{
 	background-image: url(../img/carousel.jpg);
 	background-size: cover;
-	padding: 100px 0 20px;
-	background-position: -600px;
+	padding: 6.25em 0 1.25em;
+	background-position: -37.5em;
 }
 
 .slideshow > p {
@@ -188,7 +186,7 @@ footer {
   position: relative;
   width: 10em;
   height: 2.5em;
-  box-shadow: 0 0.053em 0.053em 0.053em rgba(0, 0, 0, 0.5);
+  box-shadow: box-shadow: 0 0.06em 0.12em 0 rgba(62, 157, 194, 0.75);
 }
 
 .learn-more-button:after {
