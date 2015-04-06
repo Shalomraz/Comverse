@@ -145,11 +145,11 @@ footer {
 
 /************************* "Free your markets" section *************************/
 
-.slideshow-background{
+.slideshow-background {
 	background-image: url(../img/carousel.jpg);
 	background-size: cover;
 	padding: 6.25em 0 1.25em;
-	background-position: -37.5em;
+	background-position: -45em;
 }
 
 .slideshow > p {
