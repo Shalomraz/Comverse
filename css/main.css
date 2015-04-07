@@ -90,20 +90,66 @@ footer {
   float: left;
 }
 
-.top-menu {
+.top-menu ul {
   margin-left: 3.125em;
   float: left;
+  display: inline-block;
+  position: relative;
+  list-style: none;
 }
 
 .top-menu li {
   float: left;
   display: inline;
-  padding: 0.625em;
-  margin-top: 2.188em;
+  margin-top: 2.5em;
+  margin-left: 2em;
 }
 
+.top-menu > li {
+  float: left;
+  list-style: none;
+}
+
+.top-menu > li a {
+  color: #333;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+ 
+}
+
+.top-menu > li > a:hover,
+.top-menu > li > a:focus {
+  background: white;
+}
+
+.top-menu > a:hover {
+  color: blue;
+}
+
+.top-menu > li > div {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: none;
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 50%;
+}
+
+.top-menu ul a {
+  background-color: white;
+  width: 100%;
+}
+
+.top-menu > li:hover > div {
+  display: block;
+}
+
+
 .top-menu a {
-  color:  #585951;
+  color: blue;
   font-size: 0.875em;
   font-weight: normal;
   text-align: left;
