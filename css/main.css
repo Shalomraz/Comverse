@@ -98,7 +98,7 @@ footer {
 .top-menu li {
   float: left;
   display: inline;
-  padding: 0.625em;
+  padding: 0.58em;
   margin-top: 2.188em;
 }
 
@@ -117,10 +117,6 @@ footer {
 
 .top-menu li:hover > div {
   display: block;
-}
-
-.top-menu div {
-  display: none;
   background-color: white;
   position: absolute; 
   top: 100%; 
@@ -128,6 +124,15 @@ footer {
   left: -250px; 
   padding: 20px 35px 15px 25px;
   box-shadow:  -4px 4px 4px 0px rgba(0, 0, 0, 0.09);
+}
+
+.top-menu > li {
+  border: solid 1px transparent;
+  border-bottom: none;		
+}
+
+.top-menu div {
+  display: none;
 }
 
 .top-menu div img {
