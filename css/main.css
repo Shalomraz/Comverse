@@ -127,12 +127,15 @@ footer {
   display: block;
 }
 
+.top-menu .li-blue-header {
+  
+}
+
 .top-menu a {
   color:  #585951;
   font-size: 0.875em;
   font-weight: normal;
   text-align: left;
-  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -151,6 +154,32 @@ footer {
   float: right;
   padding-left: 45px;
   background: url(../img/line-divider.png) 0 50% no-repeat;
+}
+
+.top-menu ul {
+  width: 285px;
+  float: left; 			
+}
+
+.top-menu ul li {
+  float: none; 
+  position: relative;
+}
+
+.top-menu ul li a {
+  font-size: 0.23em;
+  color: #757575;
+  letter-spacing: -0.3px;
+}
+
+.top-menu .li-blue-header {
+  margin-top: 15px;
+}	
+
+.top-menu .li-blue-header a {
+  font-size: 0.80em;
+  font-weight: 600;
+  color: #3399CC;
 }
 
 .search-wrapper {
