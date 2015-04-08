@@ -102,13 +102,16 @@ footer {
   margin-top: 2.188em;
 }
 
-.top-menu a {
-  color:  #585951;
-  font-size: 0.875em;
-  font-weight: normal;
-  text-align: left;
-  text-transform: uppercase;
-  text-decoration: none;
+.top-menu > li {
+  border: solid 1px transparent;
+  border-bottom: none;		
+}
+
+.top-menu > li:hover {
+  border: solid 1px #D5D5D5;
+  border-bottom: none;
+  background-color: white;
+  box-shadow: -4px 8px 10px 0px grey;
 }
 
 .top-menu > li > a:hover {
@@ -119,9 +122,13 @@ footer {
   display: block;
 }
 
-.top-menu > li {
-  border: solid 1px transparent;
-  border-bottom: none;		
+.top-menu a {
+  color:  #585951;
+  font-size: 0.875em;
+  font-weight: normal;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .top-menu div {
