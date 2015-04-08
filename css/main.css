@@ -128,7 +128,7 @@ footer {
   display: none;
   background: white;
   position: absolute; 
-  top: 100%; 
+  top: 101px; 
   right: 230px;
   left: 230px; 
   padding: 20px 35px 15px 25px;
