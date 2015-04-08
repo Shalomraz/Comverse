@@ -114,6 +114,11 @@ footer {
   box-shadow: -4px 8px 10px 0px grey;
 }
 
+.top-menu > li > a {
+  display: block; 
+  padding: 3px 0 5px; 
+}
+
 .top-menu > li > a:hover {
   color: #3399CC;
 }
@@ -139,7 +144,7 @@ footer {
   right: 230px;
   left: 230px; 
   padding: 20px 35px 15px 25px;
-  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.09);
+  box-shadow: -4px 8px 10px 0px grey;
 }
 
 .top-menu div img {
