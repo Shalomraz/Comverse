@@ -231,12 +231,11 @@ footer {
 
 .top-menu ul {
   display: inline-block;
-  width: 285px;
-  margin: 1em;	
+  vertical-align: top;
+  width: 275px;
 }
 
 .top-menu ul li {
-  display: inline-block; 
   position: relative;
 }
 
