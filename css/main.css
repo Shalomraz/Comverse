@@ -212,11 +212,15 @@ footer {
   text-decoration: none;
 }
 
+.top-menu a:hover {
+  color: #3399CC;
+}
+
 .top-menu div {
   display: none;
   background: white;
   position: absolute; 
-  top: 101px; 
+  top: 97px; 
   right: 230px;
   left: 230px; 
   padding: 20px 35px 15px 25px;
@@ -240,7 +244,7 @@ footer {
 }
 
 .top-menu ul li a {
-  font-size: 0.23em;
+  font-size: 0.786em;
   color: #757575;
   letter-spacing: -0.3px;
 }
