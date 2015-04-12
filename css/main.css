@@ -1,28 +1,105 @@
-/* css reset */
-html, body, div, span, applet, object, iframe,
+/* CSS reset - reduce browser inconsistencies in things like default 
+line heights, margins and font sizes of headings, and so on. */
+html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
+body {
+    line-height: 1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q: after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+/* Clearfix - forces the containing element 
+to expand to contain its child elements */
 .clearfix:before,
 .clearfix:after {
-    content: " "; 
+    content: ' '; 
     display: table; 
 }
 
@@ -32,7 +109,6 @@ time, mark, audio, video {
 
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 100%;
 }
 
 .slideshow, 
@@ -95,16 +171,13 @@ footer {
   float: left;
 }
 
-.top-menu li {
+.top-menu > li {
+  border: solid 1px transparent;
+  border-bottom: none;
   float: left;
   display: inline;
   padding: 0.58em;
-  margin-top: 2.188em;
-}
-
-.top-menu > li {
-  border: solid 1px transparent;
-  border-bottom: none;		
+  margin-top: 2.188em;		
 }
 
 .top-menu > li:hover {
@@ -157,12 +230,13 @@ footer {
 }
 
 .top-menu ul {
+  display: inline-block;
   width: 285px;
-  float: left; 			
+  margin: 1em;	
 }
 
 .top-menu ul li {
-  float: none; 
+  display: inline-block; 
   position: relative;
 }
 
