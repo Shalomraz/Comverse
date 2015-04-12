@@ -122,6 +122,7 @@ footer {
 
 /***************************** Top menu section *****************************/
 
+/* Top menu background */
 .top-menu-background {
   height: 6em;
   box-shadow: 0 0.18em 0.18em lightgrey;
@@ -131,21 +132,25 @@ footer {
   z-index: 10;
 }
 
+/* Top menu text position */
 .display-position {
   width: 58.750em;
   margin: 1.250em auto;
 }
 
+/* Top menu "Customer login" position */
 .customer-login {
   float: right;
 }
 
+/* Top menu "Customer login" text style */
 .customer-login a {
   color: #585951;
   font-size: 0.875em;
   text-decoration: none;
 }
 
+/* Top menu choose language text style */
 .language {
   border: none;
   color:  #585951;
@@ -153,33 +158,38 @@ footer {
   font-weight: normal;
 }
 
-.language + span {
-	background-color: grey;
+/* top menu vertical text separator */
+.text-separator {
+	background-color: #585951;
 	display: inline-block;
 	width: 0.06em;
 	height: 0.8em;
 	margin: 0.12em 0.31em -0.06em 0.06em;
 }
 
+/* Top menu logo position */
 .logo {
   display: inline;
   float: left;
 }
 
+/* Top menu headers wrapper position */ 
 .top-menu {
   margin-left: 3.125em;
   float: left;
 }
 
+/* Top menu headers position */
 .top-menu > li {
   border: solid 1px transparent;
   border-bottom: none;
   float: left;
-  display: inline;
+  display: inline-block;
   padding: 0.58em;
   margin-top: 2.188em;		
 }
 
+/* Top menu hover properties */
 .top-menu > li:hover {
   border: solid 1px #D5D5D5;
   border-bottom: none;
@@ -187,35 +197,37 @@ footer {
   box-shadow: -4px 8px 10px 0px grey;
 }
 
+/* Top menu header link style */
 .top-menu > li > a {
   display: block; 
   padding: 3px 0 5px; 
 }
 
+/* Top menu header link hover color */
 .top-menu > li > a:hover {
   color: #3399CC;
 }
 
+/* Top menu header hover text wrapper */
 .top-menu li:hover > div {
   display: block;
 }
 
-.top-menu .li-blue-header {
-  
-}
-
+/* Top menu links text style */
 .top-menu a {
-  color:  #585951;
+  color: #585951;
   font-size: 0.875em;
   font-weight: normal;
   text-align: left;
   text-decoration: none;
 }
 
+/* Top menu hover window internal links color */
 .top-menu a:hover {
   color: #3399CC;
 }
 
+/* Top menu hover window properties */
 .top-menu div {
   display: none;
   background: white;
@@ -227,34 +239,30 @@ footer {
   box-shadow: -4px 8px 10px 0px grey;
 }
 
+/* Top menu hover internal image */ 
 .top-menu div img {
   float: right;
   padding-left: 45px;
   background: url(../img/line-divider.png) 0 50% no-repeat;
 }
 
+/* Top menu hover window internal text spacing */
 .top-menu ul {
   display: inline-block;
   vertical-align: top;
   width: 275px;
-}
-
-.top-menu ul li {
-  position: relative;
-}
-
-.top-menu ul li a {
-  font-size: 0.786em;
+  font-size: 0.95em;
   color: #757575;
   letter-spacing: -0.3px;
 }
 
+/* Top menu header window internal blue text top spacing */ 
 .top-menu .li-blue-header {
   margin-top: 15px;
 }	
 
 .top-menu .li-blue-header a {
-  font-size: 0.80em;
+  font-size: 0.94em;
   font-weight: 600;
   color: #3399CC;
 }
