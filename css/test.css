@@ -185,7 +185,7 @@
     /************************* "free your markets" section *************************/
 
     .slideshow-background {
-        background-image: url(../img/carousel.jpg);
+        background-image: url(../img/luna_park_wheel.jpg);
         background-size: cover;
         padding: 6.25em 0 1.25em;
         background-position: -45em;
@@ -225,7 +225,7 @@
         position: relative;
         width: 10em;
         height: 2.5em;
-        box-shadow: box-shadow: 0 0.06em 0.12em 0 rgba(62, 157, 194, 0.75);
+        box-shadow: 0 0.06em 0.12em 0 rgba(62, 157, 194, 0.75);
     }
 
         .learn-more-button:after {
