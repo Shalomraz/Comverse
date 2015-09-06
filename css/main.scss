@@ -245,12 +245,12 @@ table {
 
 /******************************* Comverse is... ******************************/
 
-.comverse-is-box {
+@mixin rectanle-container {
     position: absolute;
-    background-color: #D13A85;
     width: 100%;
     height: 12em;
-    top: 29.5em;
+    
+    box-shadow: 0 0.06em 0.12em 0 rgba(62, 157, 194, 0.75);
 
     p {
         position: relative;
@@ -286,6 +286,24 @@ table {
         left: 95%;
         transform: translate(-50%, -95%);
     }
+}
+
+.comverse-is-box {
+    @include rectanle-container;
+    background-color: #D13A85;
+    top: 29.5em;
+}
+
+.managed-services-box {
+    @include rectanle-container;
+    background-color: #69C33C;
+    top: 42em; 
+}
+
+.enabling-a-box {
+    @include rectanle-container;
+    background-color: #FE7418;
+    top: 54.5em; 
 }
 
 
