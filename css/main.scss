@@ -245,12 +245,11 @@ table {
 
 /******************************* Comverse is... ******************************/
 
-.comverse-is-box {
+@mixin rectanle-container {
     position: absolute;
-    background-color: #D13A85;
     width: 100%;
     height: 12em;
-    top: 29.5em;
+    box-shadow: 0 0.06em 0.12em 0 rgba(62, 157, 194, 0.75);
 
     p {
         position: relative;
@@ -285,6 +284,67 @@ table {
         top: 50%;
         left: 95%;
         transform: translate(-50%, -95%);
+    }
+}
+
+.comverse-is-box {
+    @include rectanle-container;
+    background-color: #D13A85;
+    top: 29.5em;
+}
+
+.managed-services-box {
+    @include rectanle-container;
+    background-color: #69C33C;
+    top: 42em; 
+}
+
+.enabling-a-box {
+    @include rectanle-container;
+    background-color: #FE7418;
+    top: 54.5em; 
+}
+
+/******************************* What Can... ******************************/
+
+.what-can-background {
+    position: absolute;
+    width: 100%;
+    height: 20em;
+    top: 67em;
+    background-image: url(../img/what_can_background.jpg);
+    box-shadow: 0 0.06em 0.12em 0 rgba(62, 157, 194, 0.75);
+
+    h1 {
+        position: relative;
+        top: 0.5em;
+        left: 0.5em;
+        font: 1.6em 'Open Sans', sans-serif;
+        color: white;
+        margin: auto;
+        width: 14em;
+    }
+
+    .what-can-box {
+        display: inline-block;
+        position: static;
+        padding: 1em;
+
+        a {
+            text-decoration: none;
+
+            img {
+                width: 6.25em;
+                height: 4.5em;
+            }
+
+            p {
+                font: 1em 'Arial', Arial;
+                font-weight: bold;
+                color: white;
+                text-align: center;
+            }
+        }
     }
 }
 
